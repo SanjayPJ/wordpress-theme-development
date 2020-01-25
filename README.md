@@ -29,3 +29,4 @@ Use it to make something cool, have fun, and share what you've learned with othe
 - Use `<?php get_header(); ?>` to show it on index.php
 - Include `footer.php`
 - Use `<?php get_footer(); ?>` to show it on index.php
+- To get theme uri `<?php echo get_template_directory_uri() ?>`
