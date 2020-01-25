@@ -60,4 +60,4 @@ Template Name: Full-width layout
 ?>
 ```
 
-- And select template when page is created
+- And select template while creating pages
