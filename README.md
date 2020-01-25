@@ -22,4 +22,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 ```
+- Include `index.php`
+- Activate theme on Dashboard
 
