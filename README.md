@@ -30,3 +30,34 @@ Use it to make something cool, have fun, and share what you've learned with othe
 - Include `footer.php`
 - Use `<?php get_footer(); ?>` to show it on index.php
 - To get theme uri `<?php echo get_template_directory_uri() ?>`
+
+## Create Pages
+
+- Include page.php
+
+```
+Page ID -> <?php the_ID(); ?> <br>
+Page Heading -> <?php the_title(); ?> 
+<?php
+// TO SHOW THE PAGE CONTENTS
+while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
+    <div class="entry-content-page">
+        <?php the_content(); ?> <!-- Page Content -->
+    </div><!-- .entry-content-page -->
+
+<?php
+endwhile; //resetting the page loop
+wp_reset_query(); //resetting the page query
+?>
+```
+
+- To create new page templates `page-{slug}.php`
+
+```
+<?php
+/*
+Template Name: Full-width layout
+?>
+```
+
+- And select template when page is created
