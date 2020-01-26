@@ -1,4 +1,4 @@
-## Creating Navs
+## Creating Menu
 
 - Create functions.php
 
